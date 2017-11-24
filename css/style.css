@@ -1,0 +1,50 @@
+*,*:before,*:after{
+  box-sizing:border-box;
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+  font-family: Helvetica, sans-serif;
+}
+.outsiplou {
+  width:auto;
+
+}
+h2{
+  text-align:center;
+}
+
+table{
+  margin-left:5px;
+  border-collapse:collapse;
+  width:100%;
+}
+
+.m{
+  color:green;
+}
+
+.f{
+  color:violet;
+}
+
+tr:nth-child(even){
+  background-color:gainsboro;
+}
+
+td{
+  padding-left:3px;
+}
+
+th{
+  height:10px;
+  text-align:left;
+  font-size:19px;
+  font-style:oblique;
+}
+
+td, th{
+  padding:2px;
+  border:solid rgba(244,244,244,0.7) 3px;
+}
